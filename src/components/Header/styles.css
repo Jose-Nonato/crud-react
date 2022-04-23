@@ -1,0 +1,36 @@
+.header {
+    overflow: hidden;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #242424;
+}
+
+.header p.logo {
+    font-size: 25px;
+    padding: 12px 23px;
+    background-color: #121214;
+    border: 1px solid #9466ff;
+    color: #fff;
+    border-radius: 4px;
+    pointer-events: none;
+}
+
+.header p:hover {
+    background-color: #9466ff;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.header p.active {
+    padding: 12px 23px;
+    background-color: #9466ff;
+    border: 1px solid #121214;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.header-right {
+    float: right;
+}
