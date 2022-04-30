@@ -52,7 +52,7 @@ const Home = () => {
                     {Object.keys(data).map((id, index) => {
                         return(
                             <tr key={id}>
-                                <td scope='row'>{id}</td>
+                                <td>{id}</td>
                                 <td>{data[id].name}</td>
                                 <td>{data[id].email}</td>
                                 <td>{data[id].contact}</td>
